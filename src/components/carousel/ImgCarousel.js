@@ -10,7 +10,7 @@ import KeyWest from '../../assets/Key West.webp'
 
 function ImgCarousel() {
   return (
-    <div className="container">
+    <div name='carousel' className="container">
         <Carousel className='carousel' showArrows={true} autoPlay={true} infiniteLoop={true} >
           <div>
               <img src={BoraBora} alt='/' />
